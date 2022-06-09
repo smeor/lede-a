@@ -18,6 +18,21 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+        
+#
+#REPO_URL	源码仓库地址
+#REPO_BRANCH	源码分支
+#FEEDS_CONF	自定义feeds.conf.default文件名
+#CONFIG_FILE	自定义.config文件名
+#DIY_P1_SH	自定义diy-part1.sh文件名 feeds前
+#DIY_P2_SH	自定义diy-part2.sh文件名 后
+#UPLOAD_BIN_DIR	上传 bin 目录。即包含所有 ipk 文件和固件的目录。默认false
+#UPLOAD_FIRMWARE	上传固件目录。默认true
+#UPLOAD_COWTRANSFER	上传固件到奶牛快传。默认false
+#UPLOAD_WERANSFER	上传固件到 WeTransfer 。默认false
+#UPLOAD_RELEASE	上传固件到 releases 。默认false
+#TZ	时区设置
+#
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
