@@ -19,4 +19,5 @@
 #
 #国内常用OpenWrt软件包源码合集，每天自动更新
 #https://github.com/liuran001/openwrt-packages
+#echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
