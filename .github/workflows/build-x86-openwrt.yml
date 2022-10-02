@@ -18,7 +18,11 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-        
+  #周日22时 CN周一6时
+#  schedule:
+#    - cron: 0 22 * * 0
+#
+
 #
 #REPO_URL	源码仓库地址
 #REPO_BRANCH	源码分支
