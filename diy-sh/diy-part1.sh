@@ -21,7 +21,7 @@
 #https://github.com/liuran001/openwrt-packages
 echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 #解决alist报错
-sudo apt install libfuse-dev
+#sudo apt install libfuse-dev
 echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default
 
 #作废
