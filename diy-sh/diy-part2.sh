@@ -17,3 +17,7 @@
 rm -rf ./feeds/luci/themes/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./feeds/luci/themes/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git ./package/lean/luci-app-argon-config
+
+#alist v3.x golang1.19.x
+rm -rf feeds/packages/lang/golang
+svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
