@@ -13,18 +13,17 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#
 #国内常用OpenWrt软件包源码合集，每天自动更新
 #https://github.com/liuran001/openwrt-packages
-echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
+echo 'src-git argon https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
+echo 'src-git oaf https://github.com/destan19/OpenAppFilter' >>feeds.conf.default
+echo 'src-git iptvhelper https://github.com/riverscn/openwrt-iptvhelper.git' >>feeds.conf.default
+echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+
 #解决alist报错
 #sudo apt install libfuse-dev
-echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default
 
-#作废
-#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-#sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-#echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
+
+
+
+
